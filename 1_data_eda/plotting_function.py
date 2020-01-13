@@ -5,8 +5,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+
+
 """
 视图通用设置
+
+https://www.tuicool.com/articles/jmQzUzy  x轴时间显示重要
 """
 #中文显示，避免方框展示
 plt.rcParams['font.sans-serif']=['SimHei']

@@ -17,7 +17,7 @@ input_file='../0_data_file/eda/catering_sale.xls'
 df=B.in_excel(input_file,u'日期')
 print("数据量:",len(df))
 print("数据基本信息:",df.describe())
-
+print(df)
 #箱型图
 B.plt.figure()
 p=df.boxplot(return_type='dict')
